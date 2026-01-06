@@ -1,0 +1,8 @@
+/uploads/
+/csv/
+
+
+#img
+*.png
+*.jpg
+

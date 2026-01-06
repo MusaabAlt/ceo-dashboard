@@ -1,0 +1,45 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GoUnhandledErrorResult" enabled="true" level="WARNING" enabled_by_default="true">
+      <methods>
+        <method importPath="hash" receiver="Hash" name="Write" />
+        <method importPath="strings" receiver="*Builder" name="WriteByte" />
+        <method importPath="bytes" receiver="*Buffer" name="WriteRune" />
+        <method importPath="strings" receiver="*Builder" name="WriteString" />
+        <method importPath="math/rand" receiver="*Rand" name="Read" />
+        <method importPath="strings" receiver="*Builder" name="Write" />
+        <method importPath="bytes" receiver="*Buffer" name="WriteByte" />
+        <method importPath="bytes" receiver="*Buffer" name="Write" />
+        <method importPath="strings" receiver="*Builder" name="WriteRune" />
+        <method importPath="bytes" receiver="*Buffer" name="WriteString" />
+        <method importPath="github.com/gofiber/fiber/v2" receiver="*App" name="Listen" />
+        <method importPath="os" receiver="*File" name="Close" />
+        <method importPath="encoding/csv" receiver="*Writer" name="Write" />
+        <method importPath="gorm.io/gorm" receiver="*DB" name="AutoMigrate" />
+        <method importPath="github.com/gofiber/fiber/v3" receiver="*App" name="Listen" />
+      </methods>
+    </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="go-admin" />
+          <option value="go-admin" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="null:github.com/dgrijalva/jwt-go:v3.2.0+incompatible" />
+          <option value="null:github.com/gofiber/fiber:v1.14.6" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
